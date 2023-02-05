@@ -16,10 +16,10 @@ export class Student3Component implements OnInit {
   }
   ngOnInit(): void {}
 
-jmbg(){
+jmbg():string{
 if(this.jmbgStr === null){
 this.jmbgStr =
-Array.apply(null, {length:13})
+Array.apply(null)
 .map(val => Math.floor(Math.random() *10))
 .join('')
 }
