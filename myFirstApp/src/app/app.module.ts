@@ -5,9 +5,10 @@ import { StudentComponent } from './student/student.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Student2Component } from './student2/student2.component';
+import { StudentListaComponent } from './student-lista/student-lista.component';
 
 @NgModule({
-  declarations: [AppComponent, StudentComponent, Student2Component],
+  declarations: [AppComponent, StudentComponent, Student2Component, StudentListaComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
