@@ -19,7 +19,7 @@ export class Student3Component implements OnInit {
 jmbg():string{
 if(this.jmbgStr === null){
 this.jmbgStr =
-Array.apply(null,{length:13})
+Array.apply(null, {length:13})
 .map(val => Math.floor(Math.random() *10))
 .join('')
 }
