@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Student3Component implements OnInit {
   static brojac: number = 1;
   redniBroj: number;
-  jmbgStr: string = null;
+  jmbgStr: string = "";
 
   constructor() {
     this.redniBroj =Student3Component.brojac;
@@ -16,12 +16,12 @@ export class Student3Component implements OnInit {
   }
   ngOnInit(): void {}
 
-jmbg():string{
-if(this.jmbgStr === null){
+jmbg():string {
+if(this.jmbgStr === ""){
 this.jmbgStr =
-Array.apply(null, {length:13})
+Array.apply( "")
 .map(val => Math.floor(Math.random() *10))
-.join('')
+.join('');
 }
 return this.jmbgStr;
 
