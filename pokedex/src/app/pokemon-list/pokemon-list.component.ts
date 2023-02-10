@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class PokemonListComponent {
 
+pokemoniList:Array<string>=["Mateja Popovic","Aleksandar Rac","Dragan Vukasinovic","Cedomir Tomcic"]
+
 }
