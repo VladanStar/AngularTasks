@@ -1,0 +1,37 @@
+:host {
+  display: flex;
+  overflow: hidden;
+}
+
+.pokemon {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+
+  &:hover {
+      background-color: red;
+      color: white;
+  }
+}
+
+.pokemon-list {
+  height: 100vh;
+  overflow: auto;
+  flex: 1 1 50%;
+}
+
+poke-pokemon {
+  position: relative;
+  flex: 1 1 50%;
+}
+
+.loading-data {
+  background-color: white;
+  background-position: center;
+  background-image: url('~/assets/pokeball.gif');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
