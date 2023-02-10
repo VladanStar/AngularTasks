@@ -12,6 +12,12 @@ pokemoniList:Array<string>=["Mateja Popovic","Shopi Sulejmanov","Aleksandar Rac"
 
 selectedPokemon:string="";
 
+
+selectPokemon(index:number){
+this.selectedPokemon=this.pokemoniList[index]
+console.log(this.selectedPokemon)
+}
+
 constructor(){
 
 }

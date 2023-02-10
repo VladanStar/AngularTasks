@@ -1,1 +1,3 @@
-<div *ngFor="let pokemon of pokemoniList">{{pokemon}}</div>
+<div *ngFor="let pokemon of pokemoniList; let i = index;" (click) ="selectPokemon(i)">{{pokemon}}</div>
+
+<app-pokemon *ngIf="selectedPokemon !== undefined" [pokemon]="selectedPokemon"></app-pokemon>
