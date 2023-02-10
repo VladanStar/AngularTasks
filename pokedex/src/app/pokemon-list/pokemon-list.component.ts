@@ -10,6 +10,8 @@ export class PokemonListComponent {
 pokemoniList:Array<string>=["Mateja Popovic","Shopi Sulejmanov","Aleksandar Rac","Dragan Vukasinovic","Cedomir Tomcic",
  "Dejan Kuzmanovic","Nenad Rosevic","Stefan Cvijic","Ivan Trailovic","Ognjen Bjekic","Dario Vojnic"];
 
+selectedPokemon:string="";
+
 constructor(){
 
 }
