@@ -1,1 +1,16 @@
-<p>student6 works!</p>
+<p>Ime:{{ ime }}</p>
+
+<div class="form-group">
+<label for="#">Ime:</label>
+<input type="text" class="form-control" [disabled]="unosJeOnemogucen()" title="#">
+</div>
+
+
+<input
+  type="button"
+  value="Sacuvaj Informacije"
+  class="btn btn-primary"
+  [disabled]="unosJeOnemogucen()"
+(click)="onSacuvajInformacije()"
+/>
+
