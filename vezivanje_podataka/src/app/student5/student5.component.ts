@@ -10,6 +10,7 @@ static readonly listaImena=["Mateja","Shopi","Aleksandar","Dragan","Cedomir","De
 static readonly  listaPrezimena=["Popovic", "Sulejmanov","Rac","Vukasinovic","Tomcic","Kuzmanovic"]
   ime:string ="";
   prezime:string="";
+  inicijalizovanStudent: boolean = false;
   dugmeJeUkljuceno:boolean =false;
 
   constructor(){
@@ -17,5 +18,13 @@ static readonly  listaPrezimena=["Popovic", "Sulejmanov","Rac","Vukasinovic","To
 
   },2000)
   }
+onDohvatiInformacije():void{
+if(this.inicijalizovanStudent){
+return;
+}
+this.ime=Student5Component.listaImena[Math.floor(Math.random() * Student5Component.listaImena.length)];
+this.prezime=Student5Component.listaPrezimena[Math.floor(Math.random() * Student5Component.listaPrezimena.length)];
+this.inicijalizovanStudent=true
+}
 
 }

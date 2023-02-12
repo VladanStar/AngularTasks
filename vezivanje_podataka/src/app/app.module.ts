@@ -9,6 +9,8 @@ import { Student4Component } from './student4/student4.component';
 import { Student4ListaComponent } from './student4-lista/student4-lista.component';
 import { Student5Component } from './student5/student5.component';
 import { Student5ListaComponent } from './student5-lista/student5-lista.component';
+import { Student6Component } from './student6/student6.component';
+import { Student6ListaComponent } from './student6-lista/student6-lista.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { Student5ListaComponent } from './student5-lista/student5-lista.componen
     Student4Component,
     Student4ListaComponent,
     Student5Component,
-    Student5ListaComponent
+    Student5ListaComponent,
+    Student6Component,
+    Student6ListaComponent
   ],
   imports: [
     BrowserModule,
