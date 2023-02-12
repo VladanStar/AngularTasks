@@ -22,5 +22,8 @@ return!this.menjanjeJeDozvoljeno;
 onSacuvajInformacije():void{
 this.menjanjeJeDozvoljeno=false;
 }
+onIzmeniIme(event: Event): void {
+   this.ime = (<HTMLInputElement>event.target).value;
+ }
 
 }
