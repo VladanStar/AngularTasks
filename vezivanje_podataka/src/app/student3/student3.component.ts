@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Student3Component implements OnInit {
   static brojac: number = 1;
-  redniBroj: number;
+  redniBroj: number =0;
   jmbgStr: string = "";
 
   constructor() {
