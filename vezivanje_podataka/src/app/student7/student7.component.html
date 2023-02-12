@@ -1,1 +1,29 @@
-<p>student7 works!</p>
+<p>Moje ime je {{ ime }}</p>
+<div class="form−group">
+  <label>Ime:</label>
+  <input
+    type="text"
+    class="form−control"
+    [disabled]="unosJeOnemogucen()"
+    (keyup)="onIzmeniIme($event)"
+title="#"
+  />
+</div>
+<div class="form−group">
+  <label>Dvostruko povezano ime:</label>
+  <input
+    type="text"
+    class="form−control"
+    [disabled]="unosJeOnemogucen()"
+    [(ngModel)]="ime"
+title="#"
+  />
+</div>
+<input
+  type="button"
+  value="Sačuvaj informacije"
+  class="btn btn−primary"
+  [disabled]="unosJeOnemogucen()"
+  (click)="onSacuvajInformacije()"
+title="#"
+/>

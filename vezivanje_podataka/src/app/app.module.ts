@@ -13,6 +13,7 @@ import { Student6Component } from './student6/student6.component';
 import { Student6ListaComponent } from './student6-lista/student6-lista.component';
 import { Student7Component } from './student7/student7.component';
 import { Student7ListaComponent } from './student7-lista/student7-lista.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { Student7ListaComponent } from './student7-lista/student7-lista.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
