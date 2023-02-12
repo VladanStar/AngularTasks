@@ -14,4 +14,8 @@ new Product(102, "Phone Standard", 699,"A great phon"),
 new Product(103, "Phone mini",299,"")
 ];
   }
+
+public getProducts():Product[]{
+returnthis.product;
+}
 }

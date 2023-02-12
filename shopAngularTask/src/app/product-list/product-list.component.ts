@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProductService } from '../services/product.service';
 import { Product } from 'src/models/product.model';
 
 @Component({
@@ -9,5 +10,9 @@ import { Product } from 'src/models/product.model';
 export class ProductListComponent {
 
 public products: Product[]=[];
+constructor( private productService:ProductService){
+this.products=this.productService.getProducts();
+
+}
 
 }
