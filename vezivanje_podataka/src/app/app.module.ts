@@ -11,6 +11,8 @@ import { Student5Component } from './student5/student5.component';
 import { Student5ListaComponent } from './student5-lista/student5-lista.component';
 import { Student6Component } from './student6/student6.component';
 import { Student6ListaComponent } from './student6-lista/student6-lista.component';
+import { Student7Component } from './student7/student7.component';
+import { Student7ListaComponent } from './student7-lista/student7-lista.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { Student6ListaComponent } from './student6-lista/student6-lista.componen
     Student5Component,
     Student5ListaComponent,
     Student6Component,
-    Student6ListaComponent
+    Student6ListaComponent,
+    Student7Component,
+    Student7ListaComponent
   ],
   imports: [
     BrowserModule,
