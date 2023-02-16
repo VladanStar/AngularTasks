@@ -25,6 +25,6 @@ export class Student3Component  {
 // }
 // console.log(this.jmbgStr)
 // return this.jmbgStr;
-//}
+// }
 }
 
