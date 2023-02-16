@@ -14,6 +14,7 @@ import { Student6ListaComponent } from './student6-lista/student6-lista.componen
 import { Student7Component } from './student7/student7.component';
 import { Student7ListaComponent } from './student7-lista/student7-lista.component';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -16,7 +16,7 @@ private menjanjeJeDozvoljeno:boolean=true;
 
     }
 unosJeOnemogucen():boolean{
-return!this.menjanjeJeDozvoljeno;
+return !this.menjanjeJeDozvoljeno;
 }
 
 onSacuvajInformacije():void{
