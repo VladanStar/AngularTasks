@@ -28,7 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     Student6Component,
     Student6ListaComponent,
     Student7Component,
-    Student7ListaComponent
+    Student7ListaComponent,
+
   ],
   imports: [
     BrowserModule,
